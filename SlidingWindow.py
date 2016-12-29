@@ -6,10 +6,9 @@
 
 import cv2
 import numpy as np
-import sklearn
 import os, argparse, time
             
-image = cv2.imread('/home/nik/Downloads/PHOTO.png')
+image = cv2.imread('???.png')
 
 def window(src, step, size):
     y,x,z = np.shape(src)
