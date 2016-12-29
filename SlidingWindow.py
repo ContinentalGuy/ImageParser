@@ -6,7 +6,6 @@
 
 import cv2
 import numpy as np
-import os, argparse, time
             
 image = cv2.imread('???.png')
 
@@ -20,7 +19,6 @@ def window(src, step, size):
 
 try:
     for (x, y, size) in window(image, (50,50), (100,100)):
-        time_p = time.clock() + 0.01
         copy = image.copy()
         cv2.rectangle(copy, (x, y), (x + size[1], y + size[0]), (0,100,0), 2)
         cv2.imshow('',copy)
