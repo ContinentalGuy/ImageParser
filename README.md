@@ -2,7 +2,7 @@
 
 ## Neural Nets Barcode Project
 Files:
-* data for **training** and **validation**.
+* Data for **training** and **validation**.
 * Network **models**.
 * **Weights**.
 * Easy classificator, builded from **Keras** tutorial.
