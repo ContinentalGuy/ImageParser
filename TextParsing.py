@@ -11,7 +11,7 @@ class PriceParser():
 
     def __init__(self, link = None, page_range = None):
         
-        __slots__ = ['GoToURL', 'pricesAndTitles']
+        __slots__ = ['run', 'GoToURL', 'pricesAndTitles']
 
         if link == None:
             self.link = 'blablabla'
